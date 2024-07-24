@@ -2459,7 +2459,7 @@ class UsersTableSeeder extends Seeder
                 'email' => 'hr@example.com',
                 'password' => Hash::make('1234'),
                 'email_verified_at' => date("Y-m-d H:i:s"),
-                'type' => 'hr',
+                'type' => 'company',
                 'lang' => 'en',
                 'avatar' => '',
                 'created_by' => $company->id,
